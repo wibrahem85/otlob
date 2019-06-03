@@ -373,10 +373,6 @@ body {}
         padding-right: 1.6rem;
     }
 
-    .social {
-        text-align: right;
-    }
-
     .footer .top-links a {
         font-size: .7rem;
         font-weight: 900;
@@ -391,8 +387,8 @@ body {}
         font-size: .7rem
     }
 
-    .social {
-        text-align: left;
+    .social p {
+        text-align: right;
     }
 
     .footer .social a.btn {
