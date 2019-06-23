@@ -168,8 +168,47 @@ body {}
     font-size: 22px;
 }
 
-/*start footer*/
+/*end footer*/
+/*start fixed buttons*/
+.fixed-bottom {
+    background-color: var(--backcolor);
+    width: 10rem;
+    right: 85%;
+    color: #695a06;
+    border-radius: .2rem;
+    border-bottom: 0;
+    line-height: 2rem;
+}
 
+.fixed-bottom:hover {
+    color: #695a06
+}
+
+.fixed-bottom .fa-comment-alt {
+    border: 1px solid #e8c512;
+    background-color: #e8c512;
+}
+
+.fixed-top {
+    background-color: #632a7b;
+    width: 7rem;
+    font-size: 1.1rem;
+    right: -2.2%;
+    top: 50%;
+    color: white;
+    border-radius: .2rem;
+    outline-offset: 1px;
+    outline: 2px solid #632a7b;
+    transform: rotate(90deg);
+
+}
+
+.fixed-top:hover {
+    color: white;
+    right: -2%
+}
+
+/*end fixed buttons*/
 /*start media query lg screen*/
 @media only screen and (max-width: 1199px) and (min-width: 992px) {
     .container {
@@ -249,7 +288,13 @@ body {}
         padding-left: .7rem;
     }
 
+    .footer .bottom-links .mainrow {
+        margin-right: 0;
+    }
 
+    .footer .bottom-links .social a i {
+        padding-left: 1.5rem;
+    }
 }
 
 /*start media query md screen*/
@@ -310,6 +355,12 @@ body {}
     .footer .bottom-links p {
         font-size: .74rem;
         font-weight: 900;
+
+    }
+
+    .footer .bottom-links .mainrow .social p {
+        text-align: right;
+        clear: right;
     }
 
     .footer .bottom-links a.btn {
@@ -378,6 +429,10 @@ body {}
         font-weight: 900;
     }
 
+    .footer .bottom-links .mainrow {
+        margin-right: 0;
+    }
+
     .footer .bottom-links p {
         font-size: .74rem;
         font-weight: 900;
@@ -394,7 +449,7 @@ body {}
     .footer .social a.btn {
         font-size: .8rem;
         padding: .375rem 0;
-        padding-right: 2rem;
+        padding-right: .4rem;
         display: block
     }
 
