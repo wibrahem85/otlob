@@ -295,6 +295,14 @@ body {}
     .footer .bottom-links .social a i {
         padding-left: 1.5rem;
     }
+
+    .fixed-bottom {
+        right: 75%;
+    }
+
+    .fixed-top {
+        right: -4%;
+    }
 }
 
 /*start media query md screen*/
@@ -380,6 +388,13 @@ body {}
         font-size: .8rem;
     }
 
+    .fixed-bottom {
+        right: 75%;
+    }
+
+    .fixed-top {
+        right: -4%;
+    }
 }
 
 /*end media query sm screen*/
@@ -457,6 +472,13 @@ body {}
         font-size: .8rem;
     }
 
+    .fixed-bottom {
+        right: 65%;
+    }
+
+    .fixed-top {
+        right: -5%;
+    }
 }
 
 /*end media query xs screen*/
