@@ -243,6 +243,12 @@ body {}
         padding-right: 4.5rem;
     }
 
+    .fixed-bottom {
+        right: 80% !important;
+    }
+
+
+
 }
 
 /*end media query lg screen*/
