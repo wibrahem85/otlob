@@ -209,6 +209,7 @@ body {}
 }
 
 /*end fixed buttons*/
+
 /*start media query lg screen*/
 @media only screen and (max-width: 1199px) and (min-width: 992px) {
     .container {
@@ -301,7 +302,7 @@ body {}
     }
 
     .fixed-top {
-        right: -4%;
+        right: -4% !important;
     }
 
     .fixed-top:hover {
@@ -397,7 +398,7 @@ body {}
     }
 
     .fixed-top {
-        right: -4%;
+        right: -4% !important;
     }
 
     .fixed-top:hover {
@@ -485,7 +486,7 @@ body {}
     }
 
     .fixed-top {
-        right: -5%;
+        right: -5% !important;
     }
 
     .fixed-top:hover {
