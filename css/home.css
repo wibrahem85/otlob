@@ -303,6 +303,10 @@ body {}
     .fixed-top {
         right: -4%;
     }
+
+    .fixed-top:hover {
+        right: -3.5%;
+    }
 }
 
 /*start media query md screen*/
@@ -395,6 +399,10 @@ body {}
     .fixed-top {
         right: -4%;
     }
+
+    .fixed-top:hover {
+        right: -3.5%;
+    }
 }
 
 /*end media query sm screen*/
@@ -478,6 +486,10 @@ body {}
 
     .fixed-top {
         right: -5%;
+    }
+
+    .fixed-top:hover {
+        right: -4.5%;
     }
 }
 
